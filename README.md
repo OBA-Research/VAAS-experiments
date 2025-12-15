@@ -19,13 +19,17 @@ transparent and reliable image integrity assessment.
 
 ![VAAS-Architecture](docs/architecture_diagrams/methodology.png)
 
+## Inference Sample Visuals
+![](docs/sample_inference_visuals/qualitative_combined.png)
+
+
 ## Read the research paper
 
 - [Journal version](to appear)
 
-## Huggingface Model Card for Quick Inference
+## Using model: Huggingface Model Card for Quick Inference
 
-- [Checkout]()
+- [Checkout](to be released after publication)
 
 ## Dataset
 
@@ -45,7 +49,8 @@ DF2023 by Fischinger and Boyer was designed to benchmark forensic methods agains
 
 `uv sync`
 
-*PyTorch with CUDA support recommended*
+- *PyTorch with CUDA support recommended*
+- *Python 3.10+*
 
 ## Training and Evaluating CASIA
 

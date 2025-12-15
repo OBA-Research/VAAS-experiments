@@ -1,0 +1,5 @@
+dataset_root: data
+output_root: outputs
+checkpoints_dir: outputs/checkpoints
+figures_dir: outputs/figures
+logs_dir: outputs/logs

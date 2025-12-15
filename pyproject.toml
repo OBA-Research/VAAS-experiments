@@ -1,0 +1,45 @@
+[project]
+name = "VAAS-experiments"
+version = "0.1.0"
+requires-python = ">=3.10,<3.13"
+description = "VAAS Experiments"
+readme = "README.md"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Opeyemi Bamigbade"},
+    { name = "Mark Scanlon"},
+    { name = "John Sheppard"},
+]
+
+dependencies = [
+    "torch==2.10.0.dev20251203+cu128",
+    "torchvision==0.25.0.dev20251203+cu128",
+    "tqdm",
+    "numpy",
+    "pandas",
+    "opencv-python-headless",
+    "matplotlib",
+    "pillow",
+    "scipy>=1.15.3",
+    "kaggle>=1.7.4.5",
+    "requests>=2.32.5",
+    "transformers>=4.57.3",
+    "nvidia-ml-py>=13.590.44",
+    "scikit-learn>=1.7.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["vaas*"]
+exclude = ["dataset", "dataset.*"]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
+extra-index-url = ["https://download.pytorch.org/whl/nightly/cu128"]
+index-strategy = "unsafe-best-match"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.0",
+    "pytest",
+    "pytest-cov",
+]

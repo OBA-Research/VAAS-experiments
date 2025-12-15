@@ -1,0 +1,8 @@
+.venv
+__pycache__/
+
+
+data/CASIA2/
+data/DF2023_V15/
+checkpoints/
+

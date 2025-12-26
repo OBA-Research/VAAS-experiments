@@ -137,17 +137,27 @@ DF2023 by Fischinger and Boyer was designed to benchmark forensic methods agains
 
 ## Citation
 
-To cite this work, please use the following BibTeX entry once available:
+If you use VAAS in your research, please cite both the paper and the associated software as appropriate.
 
-<!-- ```python
-@ARTICLE{,
-  author={},
-  journal={}, 
-  title={}, 
-  year={},
-  volume={},
-  number={},
-  pages={},
-  keywords={I},
-  doi={}}
-``` -->
+```python
+@article{bamigbade2025vaas,
+  title={VAAS: Vision-Attention Anomaly Scoring for Image Manipulation Detection in Digital Forensics},
+  author={Bamigbade, Opeyemi and Scanlon, Mark and Sheppard, John},
+  journal={arXiv preprint arXiv:2512.15512},
+  year={2025}
+}
+```
+
+```python
+@software{vaas,
+  title        = {VAAS: Vision-Attention Anomaly Scoring},
+  author       = {Bamigbade, Opeyemi and Scanlon, Mark and Sheppard, John},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18064355},
+  url          = {https://doi.org/10.5281/zenodo.18064355}
+}
+
+```
+
+---

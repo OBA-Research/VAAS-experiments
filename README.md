@@ -24,12 +24,14 @@ transparent and reliable image integrity assessment.
 
 
 ## Read the research paper
+- [arXiv version](https://arxiv.org/abs/2512.15512)
+- [Conference version](to be added after publication)
 
-- [Journal version](to appear)
+## Using model: Huggingface Model Card for Quick Inference and use cases 
 
-## Using model: Huggingface Model Card for Quick Inference
+- [VAAS-v1 on Huggingface](https://huggingface.co/OBA-Research/vaas-v1-df2023)
+- [See other VAAS model versions for usage and contribution](https://github.com/OBA-Research/VAAS)
 
-- [Checkout](to be released after publication)
 
 ## Dataset
 

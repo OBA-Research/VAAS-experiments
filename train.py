@@ -4,7 +4,10 @@ from vaas.px.px_model import PatchConsistencySegformer
 
 import random
 import warnings
-warnings.filterwarnings("ignore", message="Some weights of SegformerForSemanticSegmentation")
+warnings.filterwarnings("ignore")
+
+from transformers.utils import logging
+logging.set_verbosity_error()
 
 from tqdm import tqdm
 from vaas.utils.seed import seed_everything

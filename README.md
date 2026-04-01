@@ -142,12 +142,21 @@ DF2023 by Fischinger and Boyer was designed to benchmark forensic methods agains
 If you use VAAS in your research, please cite both the paper and the associated software as appropriate.
 
 ```python
-@article{bamigbade2025vaas,
-  title={VAAS: Vision-Attention Anomaly Scoring for Image Manipulation Detection in Digital Forensics},
-  author={Bamigbade, Opeyemi and Scanlon, Mark and Sheppard, John},
-  journal={arXiv preprint arXiv:2512.15512},
-  year={2025}
+@article{BAMIGBADE2026302063,
+title = {VAAS: Vision-Attention Anomaly Scoring for image manipulation detection in digital forensics},
+journal = {Forensic Science International: Digital Investigation},
+volume = {56},
+pages = {302063},
+year = {2026},
+note = {DFRWS EU 2026 - Selected Papers from the 13th Annual Digital Forensics Research Conference Europe},
+issn = {2666-2817},
+doi = {https://doi.org/10.1016/j.fsidi.2026.302063},
+url = {https://www.sciencedirect.com/science/article/pii/S266628172600020X},
+author = {Opeyemi Bamigbade and Mark Scanlon and John Sheppard},
+keywords = {Digital forensics, Image manipulation detection, Tamper localisation, Explainable AI, Vision transformers, Segmentation, Attention mechanisms, Anomaly scoring},
+abstract = {Recent advances in AI-driven image generation have introduced new challenges for verifying the authenticity of digital evidence in forensic investigations. Modern generative models can produce visually consistent forgeries that evade traditional detectors based on pixel or compression artefacts. Most existing approaches also lack an explicit measure of anomaly intensity, which limits their ability to quantify the severity of manipulation. This paper introduces Vision-Attention Anomaly Scoring (VAAS), a novel dual-module framework that integrates global attention-based anomaly estimation using Vision Transformers (ViT) with patch-level self-consistency scoring derived from segmentation embeddings. The hybrid formulation provides a continuous and interpretable anomaly score that reflects both the location and degree of manipulation. Evaluations on the DF2023 and CASIA v2.0 datasets demonstrate that VAAS achieves competitive F1 and IoU performance, while enhancing visual explainability through attention-guided anomaly maps. The framework bridges quantitative detection with human-understandable reasoning, supporting transparent and reliable image integrity assessment. The source code for all experiments and corresponding materials for reproducing the results are available open source.}
 }
+
 ```
 
 ```python
@@ -156,10 +165,8 @@ If you use VAAS in your research, please cite both the paper and the associated 
   author       = {Bamigbade, Opeyemi and Scanlon, Mark and Sheppard, John},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18064355},
-  url          = {https://doi.org/10.5281/zenodo.18064355}
+  doi          = {10.5281/zenodo.18064355}
 }
-
 ```
 
 ---
